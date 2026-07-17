@@ -1,0 +1,190 @@
+<svg viewBox="0 0 900 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack constellation">
+<defs>
+  <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
+    <feGaussianBlur stdDeviation="1.8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="900" height="190" fill="#0a0a0a"/>
+<rect x="0.5" y="0.5" width="899" height="189" fill="none" stroke="#232323" stroke-width="1"/>
+<circle cx="10" cy="10" r="2.2" fill="none" stroke="#232323" stroke-width="1"/><circle cx="890" cy="10" r="2.2" fill="none" stroke="#232323" stroke-width="1"/><circle cx="10" cy="180" r="2.2" fill="none" stroke="#232323" stroke-width="1"/><circle cx="890" cy="180" r="2.2" fill="none" stroke="#232323" stroke-width="1"/>
+<line x1="130.5" y1="58" x2="769.5" y2="58" stroke="#232323" stroke-width="1.2" stroke-dasharray="639" stroke-dashoffset="639">
+  <animate attributeName="stroke-dashoffset" from="639" to="0" dur="0.9s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+</line>
+<circle r="2.4" fill="#f3d896" filter="url(#glow)" opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.4s" fill="freeze"/>
+  <animateMotion dur="5s" begin="2.4s" repeatCount="indefinite" path="M 130.5 58 L 769.5 58"/>
+</circle>
+<text x="130.5" y="30" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2" fill="#C9A15A" opacity="0">FRONTEND
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.50s" fill="freeze"/>
+  </text>
+<circle cx="130.5" cy="58" r="4" fill="#C9A15A" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.50s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" begin="2.6s" repeatCount="indefinite"/>
+  </circle>
+<line x1="130.5" y1="63" x2="130.5" y2="80" stroke="#232323" stroke-width="1" stroke-dasharray="17" stroke-dashoffset="17">
+      <animate attributeName="stroke-dashoffset" from="17" to="0" dur="0.35s" begin="0.75s" fill="freeze"/>
+    </line>
+<circle cx="130.5" cy="80" r="2.1" fill="#f3d896" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.00s" fill="freeze"/>
+    </circle>
+<text x="138.5" y="83" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">React.js
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.00s" fill="freeze"/>
+    </text>
+<line x1="130.5" y1="63" x2="130.5" y2="102" stroke="#232323" stroke-width="1" stroke-dasharray="39" stroke-dashoffset="39">
+      <animate attributeName="stroke-dashoffset" from="39" to="0" dur="0.35s" begin="0.87s" fill="freeze"/>
+    </line>
+<circle cx="130.5" cy="102" r="2.1" fill="#C9A15A" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.12s" fill="freeze"/>
+    </circle>
+<text x="138.5" y="105" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Redux Toolkit
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.12s" fill="freeze"/>
+    </text>
+<line x1="130.5" y1="63" x2="130.5" y2="124" stroke="#232323" stroke-width="1" stroke-dasharray="61" stroke-dashoffset="61">
+      <animate attributeName="stroke-dashoffset" from="61" to="0" dur="0.35s" begin="0.99s" fill="freeze"/>
+    </line>
+<circle cx="130.5" cy="124" r="2.1" fill="#a3853a" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.24s" fill="freeze"/>
+    </circle>
+<text x="138.5" y="127" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Tailwind CSS
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.24s" fill="freeze"/>
+    </text>
+<line x1="130.5" y1="63" x2="130.5" y2="146" stroke="#232323" stroke-width="1" stroke-dasharray="83" stroke-dashoffset="83">
+      <animate attributeName="stroke-dashoffset" from="83" to="0" dur="0.35s" begin="1.11s" fill="freeze"/>
+    </line>
+<circle cx="130.5" cy="146" r="2.1" fill="#6b5626" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.36s" fill="freeze"/>
+    </circle>
+<text x="138.5" y="149" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Framer Motion
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.36s" fill="freeze"/>
+    </text>
+<text x="343.5" y="30" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2" fill="#C9A15A" opacity="0">BACKEND &amp; APIS
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.72s" fill="freeze"/>
+  </text>
+<circle cx="343.5" cy="58" r="4" fill="#C9A15A" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.72s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="2.9s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+<line x1="343.5" y1="63" x2="343.5" y2="80" stroke="#232323" stroke-width="1" stroke-dasharray="17" stroke-dashoffset="17">
+      <animate attributeName="stroke-dashoffset" from="17" to="0" dur="0.35s" begin="0.97s" fill="freeze"/>
+    </line>
+<circle cx="343.5" cy="80" r="2.1" fill="#f3d896" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.22s" fill="freeze"/>
+    </circle>
+<text x="351.5" y="83" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Node.js
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.22s" fill="freeze"/>
+    </text>
+<line x1="343.5" y1="63" x2="343.5" y2="102" stroke="#232323" stroke-width="1" stroke-dasharray="39" stroke-dashoffset="39">
+      <animate attributeName="stroke-dashoffset" from="39" to="0" dur="0.35s" begin="1.09s" fill="freeze"/>
+    </line>
+<circle cx="343.5" cy="102" r="2.1" fill="#C9A15A" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.34s" fill="freeze"/>
+    </circle>
+<text x="351.5" y="105" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Express.js
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.34s" fill="freeze"/>
+    </text>
+<line x1="343.5" y1="63" x2="343.5" y2="124" stroke="#232323" stroke-width="1" stroke-dasharray="61" stroke-dashoffset="61">
+      <animate attributeName="stroke-dashoffset" from="61" to="0" dur="0.35s" begin="1.21s" fill="freeze"/>
+    </line>
+<circle cx="343.5" cy="124" r="2.1" fill="#a3853a" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.46s" fill="freeze"/>
+    </circle>
+<text x="351.5" y="127" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">JWT Auth
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.46s" fill="freeze"/>
+    </text>
+<line x1="343.5" y1="63" x2="343.5" y2="146" stroke="#232323" stroke-width="1" stroke-dasharray="83" stroke-dashoffset="83">
+      <animate attributeName="stroke-dashoffset" from="83" to="0" dur="0.35s" begin="1.33s" fill="freeze"/>
+    </line>
+<circle cx="343.5" cy="146" r="2.1" fill="#6b5626" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.58s" fill="freeze"/>
+    </circle>
+<text x="351.5" y="149" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Socket.io
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.58s" fill="freeze"/>
+    </text>
+<text x="556.5" y="30" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2" fill="#C9A15A" opacity="0">DATABASE &amp; CLOUD
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.94s" fill="freeze"/>
+  </text>
+<circle cx="556.5" cy="58" r="4" fill="#C9A15A" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.94s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="3.2s" begin="3.0s" repeatCount="indefinite"/>
+  </circle>
+<line x1="556.5" y1="63" x2="556.5" y2="80" stroke="#232323" stroke-width="1" stroke-dasharray="17" stroke-dashoffset="17">
+      <animate attributeName="stroke-dashoffset" from="17" to="0" dur="0.35s" begin="1.19s" fill="freeze"/>
+    </line>
+<circle cx="556.5" cy="80" r="2.1" fill="#f3d896" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.44s" fill="freeze"/>
+    </circle>
+<text x="564.5" y="83" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">MongoDB
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.44s" fill="freeze"/>
+    </text>
+<line x1="556.5" y1="63" x2="556.5" y2="102" stroke="#232323" stroke-width="1" stroke-dasharray="39" stroke-dashoffset="39">
+      <animate attributeName="stroke-dashoffset" from="39" to="0" dur="0.35s" begin="1.31s" fill="freeze"/>
+    </line>
+<circle cx="556.5" cy="102" r="2.1" fill="#C9A15A" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.56s" fill="freeze"/>
+    </circle>
+<text x="564.5" y="105" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Docker
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.56s" fill="freeze"/>
+    </text>
+<line x1="556.5" y1="63" x2="556.5" y2="124" stroke="#232323" stroke-width="1" stroke-dasharray="61" stroke-dashoffset="61">
+      <animate attributeName="stroke-dashoffset" from="61" to="0" dur="0.35s" begin="1.43s" fill="freeze"/>
+    </line>
+<circle cx="556.5" cy="124" r="2.1" fill="#a3853a" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.68s" fill="freeze"/>
+    </circle>
+<text x="564.5" y="127" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">AWS ECS
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.68s" fill="freeze"/>
+    </text>
+<line x1="556.5" y1="63" x2="556.5" y2="146" stroke="#232323" stroke-width="1" stroke-dasharray="83" stroke-dashoffset="83">
+      <animate attributeName="stroke-dashoffset" from="83" to="0" dur="0.35s" begin="1.55s" fill="freeze"/>
+    </line>
+<circle cx="556.5" cy="146" r="2.1" fill="#6b5626" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.80s" fill="freeze"/>
+    </circle>
+<text x="564.5" y="149" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Vercel / Render
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.80s" fill="freeze"/>
+    </text>
+<text x="769.5" y="30" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2" fill="#C9A15A" opacity="0">GENAI
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.16s" fill="freeze"/>
+  </text>
+<circle cx="769.5" cy="58" r="4" fill="#C9A15A" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.16s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="3.5s" begin="3.2s" repeatCount="indefinite"/>
+  </circle>
+<line x1="769.5" y1="63" x2="769.5" y2="80" stroke="#232323" stroke-width="1" stroke-dasharray="17" stroke-dashoffset="17">
+      <animate attributeName="stroke-dashoffset" from="17" to="0" dur="0.35s" begin="1.41s" fill="freeze"/>
+    </line>
+<circle cx="769.5" cy="80" r="2.1" fill="#f3d896" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.66s" fill="freeze"/>
+    </circle>
+<text x="777.5" y="83" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">OpenAI API
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.66s" fill="freeze"/>
+    </text>
+<line x1="769.5" y1="63" x2="769.5" y2="102" stroke="#232323" stroke-width="1" stroke-dasharray="39" stroke-dashoffset="39">
+      <animate attributeName="stroke-dashoffset" from="39" to="0" dur="0.35s" begin="1.53s" fill="freeze"/>
+    </line>
+<circle cx="769.5" cy="102" r="2.1" fill="#C9A15A" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.78s" fill="freeze"/>
+    </circle>
+<text x="777.5" y="105" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Groq
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.78s" fill="freeze"/>
+    </text>
+<line x1="769.5" y1="63" x2="769.5" y2="124" stroke="#232323" stroke-width="1" stroke-dasharray="61" stroke-dashoffset="61">
+      <animate attributeName="stroke-dashoffset" from="61" to="0" dur="0.35s" begin="1.65s" fill="freeze"/>
+    </line>
+<circle cx="769.5" cy="124" r="2.1" fill="#a3853a" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="1.90s" fill="freeze"/>
+    </circle>
+<text x="777.5" y="127" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">Function-calling
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.90s" fill="freeze"/>
+    </text>
+<line x1="769.5" y1="63" x2="769.5" y2="146" stroke="#232323" stroke-width="1" stroke-dasharray="83" stroke-dashoffset="83">
+      <animate attributeName="stroke-dashoffset" from="83" to="0" dur="0.35s" begin="1.77s" fill="freeze"/>
+    </line>
+<circle cx="769.5" cy="146" r="2.1" fill="#6b5626" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.25s" begin="2.02s" fill="freeze"/>
+    </circle>
+<text x="777.5" y="149" font-family="Consolas, Menlo, monospace" font-size="9" fill="#cfcac0" opacity="0">RAG
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.02s" fill="freeze"/>
+    </text>
+</svg>
